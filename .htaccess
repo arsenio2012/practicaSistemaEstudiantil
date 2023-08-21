@@ -1,0 +1,7 @@
+Options +FollowSymLinks
+RewriteEngine on 
+
+#rutas usuario 
+RewriteRule ^inicio$ index.php?section=inicio [QSA]
+RewriteRule ^registro$ index.php?section=registro [QSA]
+RewriteRule ^login$ index.php?section=login [QSA]
